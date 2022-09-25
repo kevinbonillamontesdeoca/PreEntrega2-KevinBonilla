@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+*{
+    padding: 0;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+p{font-size: 1.15em;}
+h3{font-size: 1em;}
+
+#botonera ul li a{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#botonera img{
+    width: 100px;
+}
+
+#presentacion{
+    text-align: center;
+}
+h1{
+    padding: 20px;
+}
+
+.container{
+    justify-content: center;
+    text-align: justify; 
+    align-items: center;   
+}
+
+li{
+    font-size: 1.5em;
+}
+#desarrollo{
+    text-align: center;
+}
+
+section #contacto{
+    border: solid;
+    font-size: 1.25em;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.pie{
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+/* footer{
+    height: 50px;
+    padding: 50px 5px;
+    display: ;
+}
+footer.div{
+    width: 50px;
+}
+
+footer.p{
+    justify-content: flex-end;
+} */
+.pie__icon--sm{
+    width: 30px;
+}
