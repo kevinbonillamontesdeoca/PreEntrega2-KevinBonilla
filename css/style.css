@@ -24,7 +24,7 @@ h1{
     padding: 20px;
 }
 
-.container{
+.presentacion{
     justify-content: center;
     text-align: justify; 
     align-items: center;   
@@ -54,18 +54,6 @@ section #contacto{
 
 }
 
-/* footer{
-    height: 50px;
-    padding: 50px 5px;
-    display: ;
-}
-footer.div{
-    width: 50px;
-}
-
-footer.p{
-    justify-content: flex-end;
-} */
 .pie__icon--sm{
     width: 30px;
 }

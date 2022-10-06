@@ -9,7 +9,8 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/animate.css">
 
   <title>Course IT</title>
 </head>
@@ -18,8 +19,8 @@
   <!-- open nav -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="botonera">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/index.html">
-        <img src="/multimedia/logo-2.gif" alt="logo_pagina">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../multimedia/logo-2.gif" alt="logo_pagina">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
           </li>
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -36,8 +37,8 @@
               Cursos Bootcamp
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/page/desarrollo_web.html">Desarrollo Web</a></li>
-              <li><a class="dropdown-item" href="/page/javascript.html">JavaScript</a></li>
+              <li><a class="dropdown-item" href="./desarrollo_web.html">Desarrollo Web</a></li>
+              <li><a class="dropdown-item" href="./javascript.html">JavaScript</a></li>
               <li><a class="dropdown-item" href="#">ReacJS</a></li>
               <li><a class="dropdown-item" href="#">Python</a></li>
             </ul>
@@ -48,8 +49,8 @@
               Cursos Redes
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/page/ccnp.html">CCNP</a></li>
-              <li><a class="dropdown-item" href="/page/cableado.html">Cableado Estructurado</a></li>
+              <li><a class="dropdown-item" href="./ccnp.html">CCNP</a></li>
+              <li><a class="dropdown-item" href="./cableado.html">Cableado Estructurado</a></li>
               <li><a class="dropdown-item" href="#">Ciberseguridad</a></li>
               <li><a class="dropdown-item" href="#">Administrador de Sistemas</a></li>
             </ul>
@@ -70,13 +71,13 @@
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
-          <img src="/multimedia/headers/baner.png" class="d-block w-100" alt="prueba">
+          <img src="../multimedia/headers/baner.png" class="d-block w-100" alt="prueba">
         </div>
         <div class="carousel-item" data-bs-interval="2000">
-          <img src="/multimedia/headers/1.png" class="d-block w-100" alt="curso redes">
+          <img src="../multimedia/headers/1.png" class="d-block w-100" alt="curso redes">
         </div>
         <div class="carousel-item">
-          <img src="/multimedia/headers/2.png" class="d-block w-100" alt="curso bootcamp">
+          <img src="../multimedia/headers/2.png" class="d-block w-100" alt="curso bootcamp">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -94,7 +95,7 @@
   <!-- ends carrusel -->
   <!-- Presentacion -->
   <div class="container">
-    <h1>Desarrollo Web</h1>
+    <h1 class="wow backInLeft">Desarrollo Web</h1>
     <div class="row">
       <div class="col-sm-6 md-6">
         <p>En este curso aprenderás a crear tu sitio web partiendo del prototipo en papel. Te sumergirás en las mejores
@@ -103,7 +104,11 @@
         </p>
       </div>
       <div class="col-sm-6 md-6">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jkk9cxqqQhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/jkk9cxqqQhE" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
       </div>
       <div>
         <li>Duración: 10 Semanas</li>
@@ -114,13 +119,13 @@
   </div>
   <!-- ends input -->
   <footer class="pie">
-    <h3 class="pie__titulo--md">Visita nuestras redes</h3>
+    <h2 class="pie__titulo--md">Visita nuestras redes</h2>
     <div>
       <a href="https://www.facebook.com/kevin.bmdo" target="_blank">
-        <img src="/multimedia/icons/facebook.png" alt="Seguinos en facebook" class="pie__icon--sm">
+        <img src="../multimedia/icons/facebook.png" alt="Seguinos en facebook" class="pie__icon--sm">
       </a>
       <a href="https://www.instagram.com/nicolasdnx_/" target="_blank">
-        <img src="/multimedia/icons/logotipo-de-instagram.png" alt="Seguinos en instagram" class="pie__icon--sm">
+        <img src="../multimedia/icons/logotipo-de-instagram.png" alt="Seguinos en instagram" class="pie__icon--sm">
       </a>
     </div>
   </footer>
@@ -129,6 +134,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  <script src="js/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 
 </body>
 
